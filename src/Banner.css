@@ -1,0 +1,89 @@
+.banner-container {
+	display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%; 
+  height: 100%; 
+  background-color: red; 
+  margin-bottom: 0px; 
+  padding: 0 0px;
+}
+.imagen109 {
+	background-color: blue;
+	width: 100%;
+	height: auto;
+}
+.imagen1 {
+	width: 100%;
+	object-fit: cover;
+	
+}
+.texto1 {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	color: red;
+	width: 80%;
+	text-align: left;
+	object-fit: cover;
+}
+
+.yomera {
+	width: auto;
+	height: auto;
+}
+
+.fotoperfil {
+	width: 100%;
+	border-radius: 3%;
+	height: 100%;
+}
+
+
+.titulo {
+	text-align: left;
+	color: white;
+}
+
+.Contenedor-Banner {
+	display: flex;
+    align-items: center;
+    background-image: url(/src/Imagenes/fondoImg.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 32%;
+    background-size: 86%;
+    width: 100%;
+    justify-content: space-between;
+}
+.Texto-Banner {
+	width: 50%;
+	padding-left: 12%;
+}
+.Imagen-Banner {
+	width: 50%;
+}
+.Texto-Banner h2 {
+	font-family: "Gloock", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 183px;
+	text-align: left;
+}
+.Texto-Banner h1 {
+	font-size: 60px;
+	text-align: left;
+}
+.Linkedin {
+	width: 40px;
+    height: 40px;
+    border: 2px solid #242A41;
+    padding: 0.5rem;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}

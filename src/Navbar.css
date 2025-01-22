@@ -1,0 +1,23 @@
+.ContainerNav {
+	background: #FFFF;
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+	align-items: center;
+	justify-content: space-between;
+}
+.ImagenContainerNav {
+	width: 30%;
+    height: 40%;
+	cursor: pointer;
+}
+.Menu {
+    display: grid;
+	align-content: center;
+	grid-template-columns: repeat(3, 1fr);
+	width: 50%;
+}
+.Menu li {
+	list-style: none;
+	cursor: pointer;
+}
